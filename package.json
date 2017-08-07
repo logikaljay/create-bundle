@@ -1,11 +1,14 @@
 {
   "name": "create-bundle",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a zip bundle from files generated in your project",
   "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "test"
+  },
+  "bin": {
+    "create-bundle": "./bin/index.js"
   },
   "scripts": {
     "test": "istanbul cover _mocha -- -R spec"

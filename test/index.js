@@ -12,7 +12,9 @@ describe('Create bundle', () => {
 
   it(`should return a string of files to bundle`, done => {
     var files = Helpers.getBundleFiles()
-    expect(files).to.be.string()
+    expect(files).to.be.array()
+    expect(files.length).to.be.greaterThan(0)
+    console.log(files)
     done()
   })
 })
