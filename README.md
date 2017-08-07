@@ -5,6 +5,7 @@ Automatically use package.json for name and version to create a zip bundle of th
 ## Requirements:
 * zip installed in your path
 * transpiled project files generated in ./dist
+* Linux/OSX - [could potentially work in Windows 10 if you have installed the Linux Subsystem](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
 
 ## Usage:
 
