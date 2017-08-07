@@ -8,8 +8,13 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "istanbul cover _mocha -- -R spec"
   },
   "author": "Jay Baker <logikal@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "code": "^4.1.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.0"
+  }
 }
