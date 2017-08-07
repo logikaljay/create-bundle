@@ -15,6 +15,10 @@
   },
   "author": "Jay Baker <logikal@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/logikaljay/create-bundle"
+  },
   "devDependencies": {
     "code": "^4.1.0",
     "istanbul": "^0.4.5",
